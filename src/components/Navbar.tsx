@@ -27,7 +27,7 @@ export default function Navbar() {
                     </div>
 
                     <div className="hidden md:flex space-x-6 items-center">
-                        <span className="text-gray-700 hover:text-black cursor-pointer">StarLink ▾</span>
+                        <span className="text-gray-700 hover:text-black cursor-pointer">StarFire ▾</span>
                         <span className="text-gray-700 hover:text-black flex items-center gap-1 cursor-pointer">
                             Mail
                             <span className="text-xs bg-blue-100 text-blue-600 px-1.5 py-0.5 rounded font-medium">New</span>
@@ -70,7 +70,7 @@ export default function Navbar() {
             {isMobileMenuOpen && (
                 <div className="md:hidden px-4 pb-4 space-y-2">
                     {[
-                        "StarLink",
+                        "StarFire",
                         "Mail",
                         "Calendar",
                         "AI",
