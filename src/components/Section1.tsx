@@ -38,7 +38,7 @@ export const Section1 = () => {
                     </div>
                 </div>
 
-                <div className="mb-8 lg:mb-0 lg:ml-12">
+                <div className="mb-8 lg:mb-0 lg:ml-12 border-b-2 border-black">
 
                     {!videoPlayed ? <video ref={videoRef} poster="@/../public/noseyHeroV2.avif" src="https://www.notion.com/front-static/nosey/hero/noseyHeroV2.mp4" className="w-full h-auto" playsInline muted>
 

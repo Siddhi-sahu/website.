@@ -1,25 +1,33 @@
 import Image from "next/image"
 
 export const Section3 = () => {
-    return <>
-        <div className="grid grid-cols-2 w-full">
-            <article className="bg-pink-50 col-span-1 w-full flex justify-between flex-col relative gap-2">
-                <div>
-                    <header>
-                        <div className="flex items-center gap-2">
-                            <Image src="https://images.ctfassets.net/spoqsaf9291f/2RmBatRiqNZT7mu44Qoifl/6a834087f3d0a018fa5b14a5bae00582/ai-meeting-notes-icon.png" alt="mic" width={20} height={20} />
-                            <h3> AI Meeting Notes</h3>
-                            <span>New</span>
+    return (
+        <section className="w-full xl:w-11/12 px-6 md:px-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-6">
+                <article className="group col-span-1 bg-red-50 rounded-3xl pt-6 md:pt-10 flex flex-col justify-between relative overflow-hidden border border-red-100 hover:border-red-200">
+                    <header className="pl-6 pr-6">
+                        <div className="flex items-center gap-2 mb-4">
+                            <Image
+                                src="https://images.ctfassets.net/spoqsaf9291f/2RmBatRiqNZT7mu44Qoifl/6a834087f3d0a018fa5b14a5bae00582/ai-meeting-notes-icon.png"
+                                alt="mic"
+                                width={30}
+                                height={30}
+                            />
+                            <h3 className="text-sm font-medium">AI Meeting Notes</h3>
+                            <span className="text-xs bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full">New</span>
                         </div>
-                        <div className="flex flex-row gap-2">
-                            <h2>Perfect notes every time.</h2>
-                            <div>
+
+                        <div className="flex items-center justify-between">
+                            <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">
+                                Perfect notes every time.
+                            </h2>
+                            <div className="ml-4 shrink-0">
                                 <svg
                                     height="32"
                                     width="32"
                                     viewBox="0 0 64 64"
                                     xmlns="http://www.w3.org/2000/svg"
-                                    className="NotionIconSvgWrapper_icon__In1uC"
+                                    className="text-black"
                                 >
                                     <svg
                                         viewBox="0 0 33 32"
@@ -41,22 +49,112 @@ export const Section3 = () => {
                                         />
                                     </svg>
                                 </svg>
-
                             </div>
                         </div>
                     </header>
 
-                </div>
-                <picture>
-                    <Image src="https://images.ctfassets.net/spoqsaf9291f/4zmmc2Sts2j750iWG4cz9C/f9fc4a58dea5be6e42777a8637684765/bento_1.en-US.png" alt="image" width={100} height={100} className="w-full object-contain h-auto max-h-full z-20"
+                    <div className="mt-6">
+                        <Image
+                            src="https://images.ctfassets.net/spoqsaf9291f/4zmmc2Sts2j750iWG4cz9C/f9fc4a58dea5be6e42777a8637684765/bento_1.en-US.png"
+                            alt="AI Meeting Notes"
+                            width={600}
+                            height={400}
+                            className="w-full h-auto object-contain z-20"
+                        />
+                    </div>
+
+                    <img
+                        src="https://www.notion.com/front-static/nosey/bento/noseyWriting.gif"
+                        alt="animation"
+                        className="absolute bottom-4 right-4 w-[8vw] h-[8vw] max-w-[90px] max-h-[90px] min-w-[60px] min-h-[60px] p-[2px] rounded-full border-2 border-gray-200 bg-white flex items-center justify-center shadow-[0_2px_10.6667px_#00000014] overflow-hidden opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20 pointer-events-none"
                     />
+                </article>
 
-                </picture>
-            </article>
-            <article className="bg-blue-50 col-span-1"></article>
+                <article className="group col-span-1 bg-blue-50 rounded-3xl pt-6 md:pt-10 flex flex-col justify-between relative overflow-hidden border border-blue-100 hover:border-blue-200">
+                    <header className="pr-6 pl-6">
+                        <div className="flex items-center gap-2 mb-4">
+                            <Image
+                                src="https://images.ctfassets.net/spoqsaf9291f/4Jnz1LdPqjujdW77jmtWTh/a055aeb5baa46435d5db493456991bff/icon_bento_search.png"
+                                alt="search"
+                                width={30}
+                                height={30}
+                            />
+                            <h3 className="text-sm font-medium">Enterprise Search</h3>
+                            <span className="text-xs bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full">New</span>
+                        </div>
 
+                        <div className="flex items-center justify-between">
+                            <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">
+                                One search for everything.
+                            </h2>
+                            <div className="ml-4 shrink-0">
+                                <svg
+                                    height="32"
+                                    width="32"
+                                    viewBox="0 0 64 64"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="text-black"
+                                >
+                                    <svg
+                                        viewBox="0 0 33 32"
+                                        className="w-full h-full block fill-inherit shrink-0"
+                                    >
+                                        <rect
+                                            width="31.2"
+                                            height="31.2"
+                                            x="0.9"
+                                            y="0.4"
+                                            rx="15.6"
+                                            stroke="#F6F5F4"
+                                            strokeWidth="1"
+                                            fill="white"
+                                        />
+                                        <path
+                                            fill="#000"
+                                            d="m23.769 16-7.2 7.2-1.272-1.272 5.028-5.028H9.297v-1.8h11.028l-5.028-5.028L16.569 8.8l7.2 7.2Z"
+                                        />
+                                    </svg>
+                                </svg>
+                            </div>
+                        </div>
 
+                    </header>
 
-        </div>
-    </>
-}
+                    <div className="mt-6">
+                        <Image
+                            src="https://images.ctfassets.net/spoqsaf9291f/2ZvcfZ5FYoh5mWSzqBAoqI/0fc610cde8307c2707c679304bf55589/30222"
+                            alt="AI Meeting Notes"
+                            width={600}
+                            height={400}
+                            className="w-full h-auto object-contain z-20"
+                        />
+                    </div>
+
+                    <img
+                        src="https://www.notion.com/front-static/nosey/bento/noseySearching.gif"
+                        alt="animation"
+                        className="absolute bottom-4 right-4 w-[8vw] h-[8vw] max-w-[90px] max-h-[90px] min-w-[60px] min-h-[60px] p-[2px] rounded-full border-2 border-gray-200 bg-white flex items-center justify-center shadow-[0_2px_10.6667px_#00000014] overflow-hidden opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20 pointer-events-none"
+                    />
+                </article>
+                {/* //orange article */}
+                <article className="col-span-1 md:col-span-2 bg-orange-100 flex flex-row relative justify-between gap-2">
+                    <div>
+                        <header className="flex flex-col h-full">
+                            <div className="flex items-center gap-2">
+                                <img src="https://images.ctfassets.net/spoqsaf9291f/1vDd1Xq1bijUBXwf3p33RL/70cae92019d022cc26708127829459ae/icon_bento_projects.png" width={30} height={30} />
+                                <h3>Projects</h3>
+                            </div>
+                            <div></div>
+                        </header>
+
+                    </div>
+                    <picture>
+                        <img src="https://images.ctfassets.net/spoqsaf9291f/sBvJS45PQCJBRR1hfIZH6/89c2b8066e8e52ef45c433294d6d0af9/bento_3.en-US.png" />
+
+                    </picture>
+
+                </article>
+            </div>
+        </section>
+    );
+};
