@@ -252,7 +252,7 @@ export const Section3 = () => {
                     </div>
 
                     <img
-                        src="https://www.notion.com/front-static/nosey/bento/noseyWriting.gif"
+                        src="https://www.notion.com/front-static/nosey/bento/noseyThinking.gif"
                         alt="animation"
                         className="absolute bottom-4 right-4 w-[8vw] h-[8vw] max-w-[90px] max-h-[90px] min-w-[60px] min-h-[60px] p-[2px] rounded-full border-2 border-gray-200 bg-white flex items-center justify-center shadow-[0_2px_10.6667px_#00000014] overflow-hidden opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20 pointer-events-none"
                     />
@@ -264,18 +264,18 @@ export const Section3 = () => {
                     <header className="pr-6 pl-6">
                         <div className="flex items-center gap-2 mb-4">
                             <Image
-                                src="https://images.ctfassets.net/spoqsaf9291f/4Jnz1LdPqjujdW77jmtWTh/a055aeb5baa46435d5db493456991bff/icon_bento_search.png"
+                                src="https://images.ctfassets.net/spoqsaf9291f/7x3FVMsVsqlTTYDAC8PEpD/3a305e02cf4577a6d7b2acf0b979bb66/icon_bento_templates.png"
                                 alt="search"
                                 width={30}
                                 height={30}
                             />
-                            <h3 className="text-sm font-medium">Enterprise Search</h3>
+                            <h3 className="text-sm font-medium">Bussiness-in-a-box</h3>
                             <span className="text-xs bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full">New</span>
                         </div>
 
                         <div className="flex items-center justify-between">
                             <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">
-                                One search for everything.
+                                Run your entire company.
                             </h2>
                             <div className="ml-4 shrink-0">
                                 <svg
@@ -312,7 +312,7 @@ export const Section3 = () => {
 
                     <div className="mt-6">
                         <Image
-                            src="https://images.ctfassets.net/spoqsaf9291f/2ZvcfZ5FYoh5mWSzqBAoqI/0fc610cde8307c2707c679304bf55589/30222"
+                            src="https://images.ctfassets.net/spoqsaf9291f/4m5lpqe7uGKqVeCbxJTzs8/e55e27db18bf03aa6b431f6797219894/bento_5.en-US.png"
                             alt="AI Meeting Notes"
                             width={600}
                             height={400}
@@ -321,7 +321,7 @@ export const Section3 = () => {
                     </div>
 
                     <img
-                        src="https://www.notion.com/front-static/nosey/bento/noseySearching.gif"
+                        src="https://www.notion.com/front-static/nosey/bento/noseyGear.gif"
                         alt="animation"
                         className="absolute bottom-4 right-4 w-[8vw] h-[8vw] max-w-[90px] max-h-[90px] min-w-[60px] min-h-[60px] p-[2px] rounded-full border-2 border-gray-200 bg-white flex items-center justify-center shadow-[0_2px_10.6667px_#00000014] overflow-hidden opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20 pointer-events-none"
                     />
